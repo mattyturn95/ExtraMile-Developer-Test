@@ -80,14 +80,16 @@
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-.arrowdown{
+
+.arrowdown {
     position: absolute;
     margin-top: 850px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-.scrolldown{
+
+.scrolldown {
     position: absolute;
     margin-top: 820px;
     left: 50%;
@@ -95,7 +97,7 @@
     transform: translateX(-50%);
 }
 
-.arrowdown:hover{
+.arrowdown:hover {
     background-color: rgb(228, 173, 72);
     border-radius: 30px;
     height: 70px;
@@ -211,21 +213,16 @@
     background-image: url(../assets/blackboard.png);
     background-size: cover;
     height: 110vh;
-    
     overflow: hidden;
-    
     max-width: 100%;
 }
 
 /*-----------/Contact Section---------------*/
 
-
-
 /*-----------/Contact Section---------------*/
 
 .contact-background {
     background-image: url(../assets/contact.png);
-    
     height: 950px;
     max-width: 100%;
 }
@@ -289,7 +286,7 @@ textarea.contact-form-text {
 .getintouch {
     margin-top: 30px;
     margin-bottom: 30px;
-    position: relative;    
+    position: relative;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -309,23 +306,86 @@ textarea.contact-form-text {
 
 /*--- javascript back to top buttton  ----*/
 
-
 #myBtn {
-    display: none; 
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    z-index: 99; 
-    border: none; 
-    outline: none; 
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
     background-color: rgb(252, 170, 19);
-    color: white; 
-    cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px; 
-  }
-  
-  #myBtn:hover {
-    background-color: #555; 
-  }
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+/*------gallery------*/
+
+@keyframes fadey {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+figure#slideshow {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+figure#slideshow img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+figure#slideshow img:first-child {
+    position: relative;
+}
+
+#container:fullscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+#container:-moz-full-screen figure, #container:-ms-full-screen figure, #container:-webkit-fullscreen figure, #container:fullscreen figure {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+*:-moz-full-screen {
+    background: #fff;
+}
+
+*:-webkit-full-screen {
+    background: #fff;
+}
