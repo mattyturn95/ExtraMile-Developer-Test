@@ -1,9 +1,7 @@
 /* custom styles here */
 
 /*-----------Logo---------------*/
-body, html{
-    height: auto;
-}
+
 .logo-image {
     position: relative;
     top: 60px;
@@ -64,7 +62,7 @@ body, html{
     background-image: url(../assets/main.jpg);
     background-size: cover;
     height: 1000px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .catering-class {
@@ -107,7 +105,7 @@ body, html{
     background-image: url(../assets/yellow.jpg);
     background-size: cover;
     height: 600px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .about-us-text-container {
@@ -181,7 +179,7 @@ body, html{
     background-image: url(../assets/image3.jpg);
     background-size: cover;
     height: 1000px;
-    width: 100%;
+    max-width: 100%;
 }
 
 /*-----------/Image Section---------------*/
@@ -191,11 +189,11 @@ body, html{
 .blackboard-section {
     background-image: url(../assets/blackboard.png);
     background-size: cover;
-    height: 1000px;
+    height: 110vh;
     
     overflow: hidden;
     
-    width: 100%;
+    max-width: 100%;
 }
 
 /*-----------/Contact Section---------------*/
@@ -208,7 +206,7 @@ body, html{
     background-image: url(../assets/contact.png);
     
     height: 950px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .contact-section h1 {
@@ -284,6 +282,8 @@ textarea.contact-form-text {
     background-image: url(../assets/footer.png);
     background-size: cover;
     height: 350px;
-    width: 100%;
+    max-width: 100%;
     background-repeat: no-repeat;
 }
+
+/*--- Media Queries  ----*/
