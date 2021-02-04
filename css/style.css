@@ -1,0 +1,193 @@
+/* custom styles here */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------Logo---------------*/
+
+.logo-image {
+    position: relative;
+    top: 80px;
+    margin-right: 20px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+/*-----------/Logo---------------*/
+
+/*-----------Navigiation---------------*/
+
+.navtop {
+    background-color: black;
+    width: 100%;
+    height: 10%;
+}
+
+.topnav {
+    background-color: black;
+}
+
+.topnav a {
+    margin-left: 20px;
+    position: relative;
+    font-family: 'Josefin Slab', serif;
+    margin-right: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+    top: -30px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(241, 166, 80);
+    border-radius: 30px;
+    color: black;
+    transition: .3s ease-in;
+    transition: .3s ease-out;
+}
+
+.topnav a.active {
+    background-color: rgb(241, 166, 80);
+    border-radius: 30px;
+    color: white;
+}
+
+/*-----------/Navigiation---------------*/
+
+/*-----------/Main Image---------------*/
+
+.container-main {
+    background-image: url(../assets/main.jpg);
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+}
+
+/*-----------/Main Image---------------*/
+
+/*-----------/About Section---------------*/
+
+.knives-png {
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.twitter-logo {
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.about-section {
+    background-image: url(../assets/yellow.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.about-us-text-container {
+    padding-top: 50px;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+}
+
+.about-header {
+    margin: auto;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-size: 36pt;
+    color: #ffffff;
+}
+
+.about-paragraph {
+    margin-top: 50px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.twitter-quote-container {
+    background-color: rgba(233, 206, 77, 0.7);
+    position: absolute;
+    margin-top: 100px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    max-width: 100vh;
+    height: fit-content;
+}
+
+.twitter-user {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.twitter-quote {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+.twitter-time-posted {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    font-size: 12pt;
+    color: #ffffff;
+}
+
+.fa-quote-left {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.fa-quote-right {
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+/*-----------/Image Section---------------*/
+
+.image-section {
+    background-image: url(../assets/image3.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+/*-----------/Image Section---------------*/
+
+/*-----------/Blackboard section---------------*/
+
+.blackboard-section {
+    background-image: url(../assets/blackboard.png);
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+}
+
+/*-----------/Footer Section---------------*/
+
+.footer-section {
+    background-image: url(../assets/footer.png);
+    background-size: contain;
+    height: 350px;
+    width: 100%;
+}
+
+
+
