@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <!--------Navigation----------->
     <nav class="navtop topnav" align="center">
         <a class="active" href="#home">HOME</a>
@@ -30,6 +31,8 @@
         <div class="container-main" />
         <img src="assets/mainlogo.png" class="catering-class">
         <img src="assets/smallknives.png" class="smallknives">
+        <img src="assets/scrollimage.png" class="scrolldown">
+        <a href="#products"><img src="assets/arrowdown.png" class="arrowdown"></a>
     </section>
 
     <!-- /main-Jumbotron-image-->
@@ -88,7 +91,7 @@
     <section id="contact">
         <div class="contact-background">
             <img src="assets/getintouch.png" class="getintouch">
-            <div class="contact-section">               
+            <div class="contact-section">
                 <form class="contact-form" action="index.html" method="post">
                     <input type="text" class="contact-form-text" placeholder="Your name">
                     <input type="email" class="contact-form-text" placeholder="Your email">
@@ -111,6 +114,8 @@
     </footer>
     <!------footer-------->
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
 
 
@@ -121,6 +126,28 @@
 
 
     <!-- add JS resources you require here -->
+
+    <script>
+        
+        mybutton = document.getElementById("myBtn");
+
+        
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
 </body>
 
